@@ -26,7 +26,7 @@ def test_complete_details_valid_url_saved(client):
     assert response.status_code == 200
     # Check that submission appears in response
     assert b'John Doe' in response.data
-    assert b'FA20-BCS-001' in response.data
+    assert b'DEFECT' in response.data  # Introduce defect
 
 def test_missing_registration_number_rejected(client):
     """Test case 2: Missing registration number - submission rejected with validation message"""

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment Submission Portal - Demo</title>
+    <style>
+        body { font-family: Arial, sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; }
+        .form-group { margin-bottom: 15px; }
+        label { display: block; margin-bottom: 5px; font-weight: bold; }
+        input[type="text"], input[type="url"] { width: 100%; padding: 8px; box-sizing: border-box; }
+        button { background: #007bff; color: white; padding: 10px 20px; border: none; cursor: pointer; }
+        button:hover { background: #0056b3; }
+        .notice { background: #fff3cd; color: #856404; padding: 10px; margin-bottom: 15px; border-radius: 5px; }
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+        th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+        th { background-color: #f2f2f2; }
+    </style>
+</head>
+<body>
+    <h1>Assignment Submission Portal (Demo)</h1>
+    <div class="notice">
+        <strong>Note:</strong> This is a static demo for GitHub Pages. The full Flask application requires server-side processing.
+    </div>
+    
+    <form>
+        <div class="form-group">
+            <label for="name">Name *</label>
+            <input type="text" id="name" name="name">
+        </div>
+        <div class="form-group">
+            <label for="reg_no">Registration Number *</label>
+            <input type="text" id="reg_no" name="reg_no">
+        </div>
+        <div class="form-group">
+            <label for="assignment_title">Assignment Title *</label>
+            <input type="text" id="assignment_title" name="assignment_title">
+        </div>
+        <div class="form-group">
+            <label for="submission_url">Submission URL *</label>
+            <input type="url" id="submission_url" name="submission_url">
+        </div>
+        <button type="button" onclick="alert('Demo only - no submissions saved')">Submit Assignment</button>
+    </form>
+    
+    <h2>Submissions (Demo)</h2>
+    <p><em>No submissions in static demo</em></p>
+</body>
+</html>

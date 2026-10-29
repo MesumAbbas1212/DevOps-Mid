@@ -1,0 +1,28 @@
+{
+  "repository_name": "MesumAbbas1212/DevOps-Mid",
+  "branch": "main",
+  "commit_sha": "aef3f17ce645811e037a4394f8e62c70eba3c876",
+  "pipeline_run_identifier": "40848983875",
+  "execution_timestamp": "2026-10-29T09:21:36.184823Z",
+  "tests": [
+    {
+      "name": "test_app.py::test_complete_details_valid_url_saved",
+      "result": "passed",
+      "failure_message": null
+    },
+    {
+      "name": "test_app.py::test_missing_registration_number_rejected",
+      "result": "passed",
+      "failure_message": null
+    },
+    {
+      "name": "test_app.py::test_invalid_submission_url_rejected",
+      "result": "passed",
+      "failure_message": null
+    }
+  ],
+  "total": 3,
+  "passed": 3,
+  "failed": 0,
+  "overall_test_status": "passed"
+}
